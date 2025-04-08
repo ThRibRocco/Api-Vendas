@@ -15,7 +15,7 @@
  - HIBERNATE
 
 ## Tipo de Banco de Dados
-- H2 console
+- H2 com Spring Boot
 
 ## Como usar a aplicação
   Através do Postman, você adicionará os links necessários para realizar o cadastro, a consulta e alteração dos dados do usuário, além de digitar os dados do produto e da compra efetuada pelo cliente.
