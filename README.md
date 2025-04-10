@@ -21,15 +21,15 @@
   Através do Postman, você adicionará os links necessários para realizar o cadastro, a consulta e alteração dos dados do usuário, além de digitar os dados do produto e da compra efetuada pelo cliente. Abaixo, estão alguns exemplos para que você sabia mais sobre as funções da aplicação e como executá-las da melhor maneira.
 
 ## Criar Usuário
-<2> Método: POST </h2>
+### Método: POST
 URL: /user
-<2> Campos: </h2>
+### Campos:
 name
 email
 password
 is_active
 cpf_cnpj
-<h2> Exemplo de curl: </h2>
+### Exemplo de curl:
 
 curl --location 'http://localhost:8000/api/users' \
 --header 'Content-Type: application/json' \
