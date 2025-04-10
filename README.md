@@ -42,15 +42,15 @@ curl --location 'http://localhost:8000/api/users' \
 }'
 
 ## Atualizar Usuário
-<h2> Método: PUT </h2>
+### Método: PUT
 URL: /user/{id}
-<h2> Campos: </h2>
+### Campos:
 name
 email
 password
 is_active
 cpf_cnpj
-<h2> Exemplo de curl: </h2>
+### Exemplo de curl:
 curl --location --request PUT 'http://localhost:8000/api/users/1' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -62,18 +62,18 @@ curl --location --request PUT 'http://localhost:8000/api/users/1' \
 }'
 
 ## Encontrar Usuário pelo ID
-<h2> Método: GET </h2>
+### Método: GET 
 URL: /user/{id}
-<h2> Exemplo de curl: </h2>
+### Exemplo de curl:
 
 
 curl --location 'http://localhost:8000/user/1'
 
 ## Inativar ou Ativar usuário pelo ID
-<h2> Método: PUT </h2>
+### Método: PUT
 URL: /user/{id}/status/{status}
-<h2> Campos: </h2>
+### Campos:
 is_active
-<h2> Exemplo de curl: </h2>
+### Exemplo de curl:
 
 curl --location --globoff --request POST 'http://localhost:8000/api/users/{id}/status/{is_active}'
